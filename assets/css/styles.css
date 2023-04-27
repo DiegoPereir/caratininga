@@ -950,7 +950,7 @@ input {
     color: var(--text-color);
   }
   .section {
-    padding: 7rem 0 2rem;
+    padding: 2rem 0 2rem;
   }
   .home__container {
     height: 100vh;
@@ -985,6 +985,9 @@ input {
     width: 610px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .text_whats{
+    font-size: 14px;
   }
   .discover__container,
   .place__container {
