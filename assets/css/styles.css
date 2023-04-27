@@ -324,12 +324,14 @@ input {
 }
 
 .home__data-title {
+  margin-top: 75px;
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
 }
 
 .home__social {
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
