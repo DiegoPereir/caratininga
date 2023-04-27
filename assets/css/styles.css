@@ -857,6 +857,9 @@ input {
   background-color: var(--text-color-light);
 }
 
+.text_whats{
+  font-size: 17px;
+}
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
@@ -987,7 +990,7 @@ input {
     margin-right: auto;
   }
   .text_whats{
-    font-size: 12px;
+    font-size: 25px;
   }
   .discover__container,
   .place__container {
