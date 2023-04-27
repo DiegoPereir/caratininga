@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.17.0/css/all.min.css" integrity="sha512-KlZl3zxC2lDbue5Oih1c39F41rDBK8bWeWUlfJ6Umsqt6KHzwC8R+6iBpDPOkOePonlkvH9ykeBL0lC2QoQYzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+          
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Balneário Caratininga</title>
+    </head>
+    <body class="dark-theme">
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Balneário Caratininga</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./page/cardapio.html" class="nav__link">Cardápio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Delivery</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">Apresentação</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#maps" class="nav__link">Localização</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Bem vindo a Caratininga</span>
+                        <h1 class="home__data-title">Relaxe e renove suas energias</h1>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/balneario.caratininga/?locale=pt_BR" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/caratininga//" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Nosso lugar preferido</h2>
+                        <p class="about__description">Aqui estão algumas fotos do nosso balneário
+                        </p>
+                        <a href="#" class="button">Reservar</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/Pousada1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/pousada2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Unidade Matriz em Graça/CE</h2>
+        
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/c1.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/c2.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/c3.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/c4.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/c5.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                       <!--==================== DISCOVER 6 ====================-->
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/c6.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text_whats">
+                        <p>Número da unidade de granja <br>
+                            <a href="https://api.whatsapp.com/send?phone=+5588994859652&text=Peguei%20o%20numero%20pelo%20site,%20quero%20saber%20mais%20informações!" class="phone-number">
+                                <i class="fab fa-whatsapp whatsapp-icon"></i> (88) 99485-9652
+                            </a>
+                        </p>
+                    </div>
+            </section>
+
+            <!--==================== UNIDADE EM Tiangua ====================-->
+             
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Unidade de Tianguá/CE</h2>
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="./assets/img/ti1.jpeg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="./assets/img/ti2.jpeg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="./assets/img/ti3.jpeg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="./assets/img/ti4.jpeg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+
+                        <div class="discover__card swiper-slide">
+                            <img src="./assets/img/ti5.jpeg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                          <!--==================== DISCOVER 6 ====================-->
+
+                          <div class="discover__card swiper-slide">
+                            <img src="./assets/img/ti6.jpeg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text_whats">
+                    <p>Número da unidade de Tianguá <br>
+                        <a href="https://api.whatsapp.com/send?phone=+5588921332992&text=Peguei%20o%20numero%20pelo%20site,%20quero%20saber%20mais%20informações!" class="phone-number">
+                            <i class="fab fa-whatsapp whatsapp-icon"></i> (88) 92133-2992
+                        </a>
+                    </p>
+                </div>
+            </section>
+                       <!--==================== UNIDADE EM FRECHEIRINHA ====================-->
+            
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Unidade de Frecheirinha/CE</h2>
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                  
+        
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/fr2.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/fr3.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/fr4.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/fr5.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                          <!--==================== DISCOVER 6 ====================-->
+
+                          <div class="discover__card swiper-slide">
+                            <img src="assets/img/fr6.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text_whats">
+                    <p>Número da unidade de Frecheirinha <br>
+                        <a href="https://api.whatsapp.com/send?phone=+5588994062652&text=Peguei%20o%20numero%20pelo%20site,%20quero%20saber%20mais%20informações!" class="phone-number">
+                            <i class="fab fa-whatsapp whatsapp-icon"></i> (88) 99406-2652
+                        </a>
+                    </p>
+                </div>
+            </section>
+             <!--==================== UNIDADE EM FRECHEIRINHA ====================-->
+             
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Unidade de Mucambo/CE</h2>
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/mu1.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/mu2.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+        
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/mu3.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/mu4.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/mu5.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+                          <!--==================== DISCOVER 6 ====================-->
+
+                          <div class="discover__card swiper-slide">
+                            <img src="assets/img/mu6.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text_whats">
+                    <p>Número da unidade de Mucambo <br>
+                        <a href="https://api.whatsapp.com/send?phone=+55889994518991&text=Peguei%20o%20numero%20pelo%20site,%20quero%20saber%20mais%20informações!" class="phone-number">
+                            <i class="fab fa-whatsapp whatsapp-icon"></i> (88) 99451-8991
+                        </a>
+                    </p>
+                </div>
+            </section>
+
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section" id="experience">
+                <h2 class="section__title">Conheça um pouco do nosso lugar</h2>
+
+                <div class="video__container container">
+                    <video src="assets/movie/movie.mp4" width="800" height="800" controls></video>
+                </div>
+            </section>
+
+            <section class="maps section">
+                <h2 class="section__title">Caratininga em Tianguá/CE</h2>
+            
+                <div class="video__container container">
+                    <div class="video__content">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.5686025029987!2d-40.985596385233186!3d-3.711576695520736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eb493252ff0387%3A0xd68a5a8fd965e62f!2sCaratininga%20em%20Tiangu%C3%A1%2FCE%2C%20Nen%C3%AA%20pl%C3%A1cido%20-%20Av.%20Enfermeiro%20Jos%C3%A9%20Evangelista%20de%20Vasconcelos%2C%202500%20-%20bloco%20C%20-%20Rodoviaria%2C%20Tiangu%C3%A1%20-%20CE%2C%2062327-485!5e0!3m2!1spt-BR!2sbr!4v1682537885664!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="maps section" id="maps">
+                <h2 class="section__title">Unidade Central em Graça/CE</h2>
+
+                <div class="video__container container">
+
+                    <div class="video__content">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.054168592645!2d-40.74772798524009!3d-4.0092850970843275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x794dbbe8a7fd8e7%3A0x73a3226d9086a75d!2sBalne%C3%A1rio%20Caratininga!5e0!3m2!1spt-BR!2sbr!4v1682537445369!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+            <section class="maps section">
+                <h2 class="section__title">Frecheirinha/CE</h2>
+
+                <div class="video__container container">
+
+                    <div class="video__content">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2224959312753!2d-40.82277996297053!3d-3.761688596196314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eb31928b1bd729%3A0x47e190279fb9dc70!2sR.%20Ant%C3%B4nio%20Costa%2C%20107%20-%20Frecheirinha%2C%20CE%2C%2062340-000!5e0!3m2!1spt-BR!2sbr!4v1682537645029!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+            <section class="maps section">
+                <h2 class="section__title">Mucambo/CE</h2>
+
+                <div class="video__container container">
+
+                    <div class="video__content">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.5526166063164!2d-40.74729068524041!3d-3.9055693971592764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x794d1be4d2a8e39%3A0x4c45ca62a9655e5c!2sMUCAMBO!5e0!3m2!1spt-BR!2sbr!4v1682537885664!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Balneário Caratininga</h3>
+                        <p class="footer__description">O espaço que sua <br> familia 
+                            merece <br>
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/balneario.caratininga/?locale=pt_BR" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5588993139005" target="_blank" class="footer__social">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/caratininga//" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=efrUuau7dLU" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+        
+
+    </body>
+</html>
