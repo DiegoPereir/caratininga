@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 5rem;
+  --header-height: 3rem;
 
   /*========== Colors ==========*/
   /* Change favorite color to match images */
@@ -26,7 +26,7 @@
   /*========== Font and typography ==========*/
   --body-font: 'Open Sans', sans-serif;
   --title-font: 'Raleway', sans-serif;
-  --biggest-font-size: 3.90625rem; /* 3.125rem * 1.25 */
+  --biggest-font-size: 3.125rem; /* 3.125rem * 1.25 */
   --h1-font-size: 1.85rem; /* 1.875rem * 1.25 */
   --h2-font-size: 1.55rem; /* 1.5625rem * 1.25 */
   --h3-font-size: 1.25rem; /* 1.25rem * 1.25 */
@@ -293,6 +293,23 @@ input {
 }
 
 /*=============== HOME ===============*/
+.custom-button {
+  border: 2px solid #007BFF;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: #007BFF;
+  border: 2px solid #007BFF;
+}
 .home__img {
   position: absolute;
   top: 0;
@@ -308,6 +325,7 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
+  
 }
 
 .home__data-subtitle, 
@@ -420,11 +438,13 @@ input {
   object-fit: cover;
 }
 
+
 .about__data {
   text-align: center;
 }
 
 .about__container {
+  margin-top: -0px;
   row-gap: 2.5rem;
 }
 
