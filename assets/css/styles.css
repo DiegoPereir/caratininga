@@ -312,7 +312,7 @@ input {
 }
 .home__img {
   position: absolute;
-  top: -125px;
+  top: -100px;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -342,7 +342,8 @@ input {
 }
 
 .home__data-title {
-  margin-top: 40px;
+  color: #10b6f7
+    margin-top: 40px;
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
@@ -429,7 +430,7 @@ input {
 .border {
   border: 10px solid #f0e005;
   border: 10px solid rgba(242, 247, 1, 0.1); /* borda de 1 pixel com cor preta e 10% de opacidade */
-  box-shadow: 0 2px 8px rgb(8, 233, 8); /* sombra ao redor da imagem */
+  box-shadow: 0 2px 8px rgb(8, 233, 8); /* sombra ao redor da custom-buttonm */
   border-radius: 8px; /* bordas arredondadas */ /* Ajuste a espessura (2px) e cor (#000000) da borda conforme desejado */
 }
 .custom-image {
