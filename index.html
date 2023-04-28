@@ -69,7 +69,7 @@
                     <div class="home__data">
                         <h1 class="home__data-title">Descubra <br> um  Paraíso Irresistível</h1>
                         <button>
-                            <button class="custom-button" onclick="location.href='#about'">Venha nos conhecer!</button>
+                            <button class="custom-button" id="about" onclick="location.href='#about'">Venha nos conhecer!</button>
                         </button>
 
                     </div>
@@ -79,9 +79,9 @@
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section" >
+            <section class="about section"  >
                 <div class="about__container container grid">
-                    <div class="about__data">
+                    <div class="about__data"> 
                         <h2 class="section__title about__title">O espaço que sua família merece!</h2>
                         <p class="about__description">Na moderna Unidade Matriz em Graça/CE, inaugurada em 2019, o grupo Caratininga oferece ótimos 
                             pratos, uma piscina convidativa e aconchego em nossa pousada. Um lugar onde conforto e sabor se encontram.
@@ -103,7 +103,7 @@
             </section>
             
             <!--==================== DISCOVER ====================-->
-            <section class="discover section" id="about">
+            <section class="discover section" >
                 <h2 class="section__title">Unidade Matriz em Graça/CE</h2>
         
                 <div class="discover__container container swiper-container">
@@ -236,7 +236,12 @@
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== DISCOVER 1 ====================-->
-                  
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/fr1.jpg" alt="" class="discover__img border custom-image">
+                            <div class="discover__data">
+                                <span class="discover__description"></span>
+                            </div>
+                        </div>
         
                         <!--==================== DISCOVER 2 ====================-->
                         <div class="discover__card swiper-slide">
