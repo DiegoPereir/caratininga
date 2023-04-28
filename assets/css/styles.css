@@ -342,11 +342,11 @@ input {
 }
 
 .home__data-title {
-  color: #0865f0;
-    margin-top: 40px;
+  margin-top: 40px;
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
+  -webkit-text-stroke: 2px #0d99ab; /* Adicione essa linha para criar uma borda preta ao redor do texto */
 }
 
 .home__social {
