@@ -4,13 +4,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-        <link
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.3/simpleLightbox.min.css"><link
         rel="stylesheet"
         href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.17.0/css/all.min.css" integrity="sha512-KlZl3zxC2lDbue5Oih1c39F41rDBK8bWeWUlfJ6Umsqt6KHzwC8R+6iBpDPOkOePonlkvH9ykeBL0lC2QoQYzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous">
 
 
 
@@ -38,22 +36,21 @@
                             <a href="#home" class="nav__link active-link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="./page/cardapio.html" class="nav__link">Cardápio</a>
+                            <a href="#about" class="nav__link">Sobre</a>
                         </li>
+                       
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">Apresentação</a>
                         </li>
                         <li class="nav__item">
                             <a href="#maps" class="nav__link">Localização</a>
                         </li>
+                        <li class="nav__item">
+                            <a href="./page/cardapio.html" class="nav__link">Cardápio</a>
+                        </li>
                     </ul>
 
-                    <div class="nav__dark">
-                        <!-- Theme change button -->
-                        <span class="change-theme-name">Dark mode</span>
-                        <i class="ri-moon-line change-theme" id="theme-button"></i>
-                    </div>
-
+                  
                     <i class="ri-close-line nav__close" id="nav-close"></i>
                 </div>
 
@@ -67,14 +64,13 @@
             <!--==================== HOME ====================-->
             <section class="home" id="home">
                 <img src="assets/img/home1.jpg" alt="" class="home__img">
-
+            
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle"> <br> </span>
+                        <span class="home__data-subtitle"></span>
                         <h1 class="home__data-title">Descubra um <br> Paraíso Irresistível</h1>
-
                     </div>
-
+            
                     <div class="home__social">
                         <a href="https://www.facebook.com/balneario.caratininga/?locale=pt_BR" target="_blank" class="home__social-link">
                             <i class="ri-facebook-box-fill"></i>
@@ -83,8 +79,6 @@
                             <i class="ri-instagram-fill"></i>
                         </a>
                     </div>
-
-
                 </div>
             </section>
 
@@ -92,10 +86,10 @@
             <section class="about section" id="about">
                 <div class="about__container container grid">
                     <div class="about__data">
-                        <h2 class="section__title about__title">Nosso lugar preferido</h2>
-                        <p class="about__description">Unidade Matriz em Graça/CE
-                            inaugurada em 2019 é a unidade mais moderna do grupo Caratininga. Excelente qualidade nos pratos, piscina maravilhosa e a pousada é muito aconchegante.
-                            
+                        <h2 class="section__title about__title">O espaço que sua família merece!</h2>
+                        <p class="about__description">Na moderna Unidade Matriz em Graça/CE, inaugurada em 2019, o grupo Caratininga oferece ótimos 
+                            pratos, uma piscina convidativa e aconchego em nossa pousada. Um lugar onde conforto e sabor se encontram.
+
                         </p>
                         <a href="https://api.whatsapp.com/send?phone=5588994859652" target="_blank" class="button">Reservar</a>
                     </div>
@@ -363,15 +357,17 @@
 
 
             <!--==================== VIDEO ====================-->
+            <img src="assets/img/c1.jpg" alt="" class="discover__img border custom-image" hidden>
+
             <section class="video section" id="experience">
                 <h2 class="section__title">Conheça um pouco do nosso lugar</h2>
-
+            
                 <div class="video__container container">
-                    <video src="assets/movie/movie.mp4" width="1800" height="1800" controls></video>
+                    <video src="assets/movie/movie.mp4" width="1800" height="1800" controls poster="assets/img/c1.jpg"></video>
                 </div>
             </section>
 
-            <section class="maps section" id="maps">
+            <section  id="maps"class="maps section">
                 <h2 class="section__title">Unidade Central em Graça/CE</h2>
 
                 <div class="video__container container">
@@ -455,7 +451,7 @@
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.3/simpleLightbox.min.js"></script>
 
         
 
