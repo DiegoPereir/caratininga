@@ -304,12 +304,20 @@ input {
   border-radius: 5px;
   transition: all 0.3s;
 }
-
-.custom-button:hover {
-  background-color: white;
-  color: #007BFF;
-  border: 2px solid #007BFF;
+.home {
+  position: relative;
+  overflow: hidden;
 }
+
+.home__img-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: visible;
+}
+
 .home__img {
   position: absolute;
   top: -100px;
@@ -325,7 +333,20 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
-  
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .home__img {
+    transform: translateX(0px); /* Ajuste este valor conforme a necessidade */
+    object-position: center; /* Ajuste este valor conforme a necessidade */
+  }
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: #007BFF;
+  border: 2px solid #007BFF;
 }
 
 .home__data-subtitle, 
@@ -334,7 +355,28 @@ input {
 .home__info {
   color: var(--white-color);
 }
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; /* Ajuste o peso da fonte conforme a necessidade */
+}
+@keyframes fadeInOut {
+  0% {
+      opacity: 0;
+  }
+  20% {
+      opacity: 1;
+  }
+  80% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
 
+.animated-text {
+  animation: fadeInOut 5s linear infinite;
+}
 .home__data-subtitle {
   display: block;
   font-weight: var(--font-semi-bold);
@@ -346,7 +388,7 @@ input {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
-  -webkit-text-stroke: 2px #0d99ab; /* Adicione essa linha para criar uma borda preta ao redor do texto */
+  -webkit-text-stroke: 1px #0078ff; /* Adicione essa linha para criar uma borda preta ao redor do texto */
 }
 
 .home__social {
